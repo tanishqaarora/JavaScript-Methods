@@ -18,3 +18,7 @@ let name2 = {
 }
 
 printFullName.call(name2, "Chandigarh", "Punjab");
+
+// apply() method is same as call() method
+// only difference is the second argument is an array of arguments that is to be passed
+printFullName.apply(name2, ["Chandigarh", "Punjab"]);
